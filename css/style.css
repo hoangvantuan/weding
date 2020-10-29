@@ -841,7 +841,7 @@ form label {
 }
 
 #fh5co-header {
-  background-position: center center;
+  background-position: center center !important;
   background-size: cover;
 }
 
