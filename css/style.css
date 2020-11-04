@@ -370,7 +370,7 @@ figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 1028px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -1977,4 +1977,8 @@ form label {
 
 .pt-100 {
   padding-top: 100px !important;
+}
+
+.pt-20 {
+  padding-top: 20px;
 }
