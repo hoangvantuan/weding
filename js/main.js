@@ -201,6 +201,10 @@ jQuery(document).ready(function () {
         src: 'https://www.youtube.com/watch?v=DgdEk6XmLD0&ab_channel=Tu%E1%BA%A5nHo%C3%A0ngV%C4%83n',
         title: 'Before Propose',
       },
+      {
+        src: 'https://youtu.be/Kw5GVGqnfJw',
+        title: 'Propose',
+      },
     ],
     thumbnailWidth: 'auto',
     thumbnailHeight: 400,
