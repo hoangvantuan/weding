@@ -210,79 +210,79 @@ jQuery(document).ready(function () {
         title: 'Album Video',
       },
       {
-        src: 'images/ALBUM/album-1.jpg',
+        src: 'images/ALBUM/1.JPG',
       },
       {
-        src: 'images/ALBUM/album-2.jpg',
+        src: 'images/ALBUM/2.JPG',
       },
       {
-        src: 'images/ALBUM/album-3.jpg',
+        src: 'images/ALBUM/3.JPG',
       },
       {
-        src: 'images/ALBUM/album-4.jpg',
+        src: 'images/ALBUM/4.JPG',
       },
       {
-        src: 'images/ALBUM/album-5.jpg',
+        src: 'images/ALBUM/5.JPG',
       },
       {
-        src: 'images/ALBUM/album-6.jpg',
+        src: 'images/ALBUM/6.JPG',
       },
       {
-        src: 'images/ALBUM/album-7.jpg',
+        src: 'images/ALBUM/7.JPG',
       },
       {
-        src: 'images/ALBUM/album-8.jpg',
+        src: 'images/ALBUM/8.JPG',
       },
       {
-        src: 'images/ALBUM/album-9.jpg',
+        src: 'images/ALBUM/9.JPG',
       },
       {
-        src: 'images/ALBUM/album-10.jpg',
+        src: 'images/ALBUM/10.JPG',
       },
       {
-        src: 'images/ALBUM/album-11.jpg',
+        src: 'images/ALBUM/11.JPG',
       },
       {
-        src: 'images/ALBUM/album-12.jpg',
+        src: 'images/ALBUM/12.JPG',
       },
       {
-        src: 'images/ALBUM/album-13.JPG',
+        src: 'images/ALBUM/13.JPG',
       },
       {
-        src: 'images/ALBUM/album-14.jpg',
+        src: 'images/ALBUM/14.JPG',
       },
       {
-        src: 'images/ALBUM/album-15.jpg',
+        src: 'images/ALBUM/15.JPG',
       },
       {
-        src: 'images/ALBUM/album-16.jpg',
+        src: 'images/ALBUM/16.JPG',
       },
       {
-        src: 'images/ALBUM/album-17.JPG',
+        src: 'images/ALBUM/17.JPG',
       },
       {
-        src: 'images/ALBUM/album-18.jpg',
+        src: 'images/ALBUM/18.JPG',
       },
       {
-        src: 'images/ALBUM/album-19.jpg',
+        src: 'images/ALBUM/19.JPG',
       },
       {
-        src: 'images/ALBUM/album-20.jpg',
+        src: 'images/ALBUM/20.JPG',
       },
       {
-        src: 'images/ALBUM/album-21.jpg',
+        src: 'images/ALBUM/21.JPG',
       },
       {
-        src: 'images/ALBUM/album-22.jpg',
+        src: 'images/ALBUM/22.JPG',
       },
       {
-        src: 'images/ALBUM/album-23.jpg',
+        src: 'images/ALBUM/23.JPG',
       },
       {
-        src: 'images/ALBUM/album-24.jpg',
+        src: 'images/ALBUM/24.JPG',
       },
       {
-        src: 'images/ALBUM/album-25.jpg',
+        src: 'images/ALBUM/25.JPG',
       },
     ],
     // GALLERY AND THUMBNAIL LAYOUT
