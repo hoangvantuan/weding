@@ -205,9 +205,168 @@ jQuery(document).ready(function () {
         src: 'https://youtu.be/tmBDFVuB10E',
         title: 'Propose',
       },
+      {
+        src: 'https://youtu.be/Mg8lVyuKU5Q',
+        title: 'Album Video',
+      },
+      {
+        src: 'images/ALBUM/album-1.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-2.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-3.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-4.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-5.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-6.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-7.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-8.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-9.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-10.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-11.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-12.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-13.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-14.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-15.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-16.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-17.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-18.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-19.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-20.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-21.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-22.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-23.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-24.JPG',
+      },
+      {
+        src: 'images/ALBUM/album-25.JPG',
+      },
     ],
-    thumbnailWidth: 'auto',
-    thumbnailHeight: 400,
-    locationHash: false,
+    // GALLERY AND THUMBNAIL LAYOUT
+    galleryMosaic: [
+      // default layout
+      { w: 2, h: 2, c: 1, r: 1 },
+      { w: 1, h: 1, c: 3, r: 1 },
+      { w: 1, h: 1, c: 3, r: 2 },
+      { w: 1, h: 2, c: 4, r: 1 },
+      { w: 2, h: 1, c: 5, r: 1 },
+      { w: 2, h: 2, c: 5, r: 2 },
+      { w: 1, h: 1, c: 4, r: 3 },
+      { w: 2, h: 1, c: 2, r: 3 },
+      { w: 1, h: 2, c: 1, r: 3 },
+      { w: 1, h: 1, c: 2, r: 4 },
+      { w: 2, h: 1, c: 3, r: 4 },
+      { w: 1, h: 1, c: 5, r: 4 },
+      { w: 1, h: 1, c: 6, r: 4 },
+    ],
+    galleryMosaicXS: [
+      // layout for XS width
+      { w: 2, h: 2, c: 1, r: 1 },
+      { w: 1, h: 1, c: 3, r: 1 },
+      { w: 1, h: 1, c: 3, r: 2 },
+      { w: 1, h: 2, c: 1, r: 3 },
+      { w: 2, h: 1, c: 2, r: 3 },
+      { w: 1, h: 1, c: 2, r: 4 },
+      { w: 1, h: 1, c: 3, r: 4 },
+    ],
+    galleryMosaicSM: [
+      // layout for SM width
+      { w: 2, h: 2, c: 1, r: 1 },
+      { w: 1, h: 1, c: 3, r: 1 },
+      { w: 1, h: 1, c: 3, r: 2 },
+      { w: 1, h: 2, c: 1, r: 3 },
+      { w: 2, h: 1, c: 2, r: 3 },
+      { w: 1, h: 1, c: 2, r: 4 },
+      { w: 1, h: 1, c: 3, r: 4 },
+    ],
+    galleryMaxRows: 1,
+    galleryDisplayMode: 'rows',
+    gallerySorting: 'random',
+    thumbnailDisplayOrder: 'random',
+
+    thumbnailHeight: '180',
+    thumbnailWidth: '220',
+    thumbnailAlignment: 'scaled',
+    thumbnailGutterWidth: 0,
+    thumbnailGutterHeight: 0,
+    thumbnailBorderHorizontal: 0,
+    thumbnailBorderVertical: 0,
+
+    thumbnailToolbarImage: null,
+    thumbnailToolbarAlbum: null,
+    thumbnailLabel: { display: false },
+
+    // DISPLAY ANIMATION
+    // for gallery
+    galleryDisplayTransitionDuration: 1500,
+    // for thumbnails
+    thumbnailDisplayTransition: 'imageSlideUp',
+    thumbnailDisplayTransitionDuration: 1200,
+    thumbnailDisplayTransitionEasing: 'easeInOutQuint',
+    thumbnailDisplayInterval: 60,
+
+    // THUMBNAIL HOVER ANIMATION
+    thumbnailBuildInit2: 'image_scale_1.15',
+    thumbnailHoverEffect2: 'thumbnail_scale_1.00_1.05_300|image_scale_1.15_1.00',
+    touchAnimation: true,
+    touchAutoOpenDelay: 500,
+
+    // LIGHTBOX
+    viewerToolbar: { display: false },
+    viewerTools: {
+      topLeft: 'label',
+      topRight: 'shareButton, rotateLeft, rotateRight, fullscreenButton, closeButton',
+    },
+
+    // GALLERY THEME
+    galleryTheme: {
+      thumbnail: { background: '#111' },
+    },
+
+    // DEEP LINKING
+    locationHash: true,
   });
 });
